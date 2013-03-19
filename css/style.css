@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px auto 0px auto;
+	/*background-color:#D9E0E1;*/
+	background-color:#FFF;
+}
+#title{
+	height:100px;
+	width:1000px;
+	margin:auto;
+	/*background-color:#4F3C20;*/
+	background-color:#FFF;
+}
+#logo{
+	position:relative;
+	display:inline-block;
+	float:left;
+	background-color: transparent;
+	/*border:2px solid #808040;*/	
+}
+#menubar ul{
+	position:relative;
+	list-style-type: none;
+	height: 80px;
+	width: 815px;
+	margin: auto;
+	
+}
+#menubar li{
+	float: left;
+}
+#menubar ul a {
+background-image: url('../images/navi_bg_divider.png');
+background-repeat: no-repeat;
+background-position: right;
+padding-right: 32px;
+padding-left: 32px;
+display: block;
+line-height: 80px;
+text-decoration: none;
+font-size: 21px;
+color: #000;
+}
+#menubar ul a:hover {
+color: #2345ff;
+
+
+}
+#menuHolder{
+	height:30px;
+	margin:0px;
+	padding:0px;
+	background-color:#808040;
+}
+#menu{
+	height:30px;
+	width:1000px;
+	margin:auto;
+	background-color:transparent;
+	text-align:right;
+	
+	
+}
+#textbox{
+	
+	border-collapse:collapse;
+	border-radius:10px;
+	width:180px;
+	height:20px;
+	border:1px solid white;
+	-webkit-apperance: textfield;
+	float:left;
+}
+#searchbox{
+	width: 205px;
+	display: inline-block;
+	border-radius:10px;
+	background-color: white;
+	margin-top:3px;
+	
+}
+#search{
+	border:0;
+	background: url("../images/search_button.gif") no-repeat top left;
+	height: 20px;
+	margin-top: 2px;
+	text-indent: -9999px;
+	width: 20px;
+	float: right;
+	-webkit-apperance: button;
+	
+}
+#content1{
+	margin: 0px auto 0px auto;
+	width:1000px;
+	height:400px;
+}
+
+#links{
+	position:relative;
+	display:inline-block;
+	border:1px solid black;
+	vertical-align:top;
+	float: right;
+	width:290px;
+	height:400px;
+}
+#content2{
+	margin: 0px auto 0px auto;
+	width:1000px;
+	height:300px;
+}
+#events{
+	width:240px;
+	float:left;
+	position:relative;
+	height:290px;
+	border:1px solid black;
+	margin-top:5px;
+}
+#contentmid{
+	width: 500px;
+	height:290px;
+	margin-top:4px;
+	margin-left:5px;
+	position:relative;
+	float:left;
+	
+}
+#life{
+	width:240px;
+	float:right;
+	position:relative;
+	height:290px;
+	border:1px solid black;
+	margin-top:3px;
+}
+#news{
+	width: 495px;
+	height:190px;
+	border:1px solid black;
+}
+#research{
+	width: 495px;
+	height:90px;
+	margin-top:5px;
+	border:1px solid black;
+}
+#footer{
+	height:150px;
+	background-color:#272727;
+}
+#copy{
+	height:25px;
+	background-color:#C0C0C0
+}
+#slides{
+	width: 600px;
+	height:337px;
+	background-color:#FC0;
+}
