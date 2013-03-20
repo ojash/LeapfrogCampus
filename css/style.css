@@ -7,6 +7,16 @@ body{
 	background-color:#f2eee9;
 
 }
+#ribbon {
+width:111px;
+height:111px;
+position:absolute;
+top:-4px;
+left:-4px;
+background:url(../images/ribbon.png) no-repeat;
+z-index:7;
+}
+
 #header{
 	height:100px;
 	margin:auto;
@@ -115,7 +125,7 @@ color: #2345ff;
 #content1{
 	margin: 0px auto 0px auto;
 	width:1000px;
-	height:400px;
+	height:450px;
 }
 
 #links{
