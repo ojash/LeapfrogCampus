@@ -127,7 +127,7 @@ color:#81c4e1;
 #links{
 	position:relative;
 	display:inline-block;
-	background:url("../images/top.gif") no-repeat top left;
+	background:url(file:///C|/Users/Myself/Desktop/lf/images/top.gif) no-repeat top left;
 	vertical-align:top;
 	text-align:right;
 	float: right;
@@ -153,7 +153,7 @@ color:#81c4e1;
 	float:left;
 	position:relative;
 	height:290px;
-	background:url("../images/topdot.gif") no-repeat top right;
+	background:url(file:///C|/Users/Myself/Desktop/lf/images/topdot.gif) no-repeat top right;
 	/*border:1px solid black;*/
 	margin-top:5px;
 }
