@@ -23,12 +23,12 @@
 }
 #ribbon{
 	width:835px;
-	height:111px;
+	height:40px;
 	position:absolute;
 	top:-3px;
 	left:-18px;
 	background:url('../images/topban.png') no-repeat;
-	z-index:7; 
+	z-index:9999; 
 }
 #slider img {
 	position:absolute;

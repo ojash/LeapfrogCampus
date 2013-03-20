@@ -1,38 +1,28 @@
 /*  NAV-BAR |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 */
-#nav {
-	margin-top:34px; margin-left:40px;
-}
 #nav ul li {
-	color:#085C28;
+	width:100px;
+	color:#FFF;
 	float:left;
-	margin-right:12px;
-	padding:5px 0; border:1px solid #eee; border-bottom:none;
-	width:200px; background:#fafcf9 url(../images/menu-bg.png) repeat-x left bottom;
-	height:16px; cursor:pointer; font-family:Arial, Helvetica, sans-serif;
-	position:relative; -moz-border-radius-topleft:7px;-moz-border-radius-topright:7px;z-index:9999;
+	height:10px; 
+	cursor:pointer;
+	position:relative; 
+	font-size: 20px;
+	padding:0 25px ;
+	list-style:none;
+	top: -10px;
+	z-index:9999;
 }
-/*
-#nav ul li.first {
-	background-color:#DE9D7F;
-}
-#nav ul li.second {
-	background-color:#B76EB8;
-}
-#nav ul li.last {
-	background-color:#0099CC;
-}
-
-#nav ul li.last2 { background-color:#028482; margin-right:0;}
-*/
-
 .subnav {
 	width:0px;
 	overflow:hidden; 
-	height:0px; padding-top:10px;/*-moz-border-radius-bottomleft:7px;-moz-border-radius-bottomright:7px;*/
+	left:-50px;
+	text-indent:-75px;
+	height:0px; padding:0 0 0 0;
+	z-index:8;
 }
 
-#nav .subnav li { padding:0;height:32px; border:none;line-height:32px;-moz-border-radius:0px; }
-.subnav li a { display:block; text-indent:15px; font:bold 11px/32px Tahoma, Geneva, sans-serif; border-top:1px dashed #eee; width:180px;color:#085C28;}
+#nav .subnav li { padding:0;height:32px; border:none;line-height:32px;z-index:1; }
+.subnav li a {display:block; text-indent:-75px; background-color:#214f75; text-decoration:none;width:180px;color:#FFF; z-index:1}
 #nav .subnav li:last-child { border-bottom:none;} 
 
