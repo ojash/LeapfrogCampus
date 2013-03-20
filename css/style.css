@@ -4,22 +4,35 @@
 body{
 	margin: 0px auto 0px auto;
 	/*background-color:#D9E0E1;*/
-	background-color:#FFF;
+	background-color:#f2eee9;
+
 }
-#title{
+#header{
 	height:100px;
-	width:1000px;
 	margin:auto;
 	/*background-color:#4F3C20;*/
-	background-color:#FFF;
+	/*background: url("../images/bg.gif") repeat-x;*/
+	/*background-color:#214f75;			/*#285b86; satisfactory */
+	border-bottom: 1px solid #1a4161;
+	background: -webkit-linear-gradient(top, #214f75 0%, #1f517c 100%);
 }
+
+#title{
+	width:1000px;
+	margin: auto;
+	
+}
+
+
 #logo{
 	position:relative;
 	display:inline-block;
-	float:left;
+	float: left;
 	background-color: transparent;
 	/*border:2px solid #808040;*/	
 }
+
+/*menubar*/
 #menubar ul{
 	position:relative;
 	list-style-type: none;
@@ -35,13 +48,13 @@ body{
 background-image: url('../images/navi_bg_divider.png');
 background-repeat: no-repeat;
 background-position: right;
-padding-right: 32px;
-padding-left: 32px;
+/*padding-right: 32px;
+padding-left: 32px;*/
 display: block;
 line-height: 80px;
 text-decoration: none;
-font-size: 21px;
-color: #000;
+font-size: 20 px;
+color: #fff;
 }
 #menubar ul a:hover {
 color: #2345ff;
@@ -52,7 +65,12 @@ color: #2345ff;
 	height:30px;
 	margin:0px;
 	padding:0px;
-	background-color:#808040;
+	border-top: 1px solid #265a85;
+	/*border-bottom: 1px solid #101665;*/
+	background-color:#214f75;/*#285b86/*transparent;
+	
+	/*background: -webkit-linear-gradient(top, #7d0101 0%, #651110 100%);*/
+	
 }
 #menu{
 	height:30px;
@@ -63,6 +81,7 @@ color: #2345ff;
 	
 	
 }
+
 #textbox{
 	
 	border-collapse:collapse;
@@ -78,7 +97,8 @@ color: #2345ff;
 	display: inline-block;
 	border-radius:10px;
 	background-color: white;
-	margin-top:3px;
+	float:right;
+	margin-top:30px;
 	
 }
 #search{
@@ -160,4 +180,11 @@ color: #2345ff;
 	width: 600px;
 	height:337px;
 	background-color:#FC0;
+}
+
+
+/* menubar gradient background */
+
+#menubackground {
+
 }
