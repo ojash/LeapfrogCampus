@@ -4,7 +4,7 @@
 	position:relative;
 	display:inline-block;
 	width:800px;
-	height:450px;
+	height:400px;
 	margin: 0px 0 0 0;
 	
 	
@@ -13,13 +13,22 @@
 
 
 #slider {
-    width:700px;height:350px;/* Make it the same size as your images */
+    width:800px;height:400px;/* Make it the same size as your images */
 	background:#fff url("../images/loading.gif") no-repeat 50% 50%;
 	position:relative;
 	margin:0 0 0 0;/*make the image slider center-aligned */
-    -webkit-box-shadow: 0px 5px 15px #999999;
+    /*-webkit-box-shadow: 0px 5px 15px #999999;*/
 	
 	
+}
+#ribbon{
+	width:835px;
+	height:111px;
+	position:absolute;
+	top:-3px;
+	left:-18px;
+	background:url('../images/topban.png') no-repeat;
+	z-index:7; 
 }
 #slider img {
 	position:absolute;
