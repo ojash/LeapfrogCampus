@@ -7,16 +7,6 @@ body{
 	background-color:#f2eee9;
 
 }
-#ribbon {
-width:111px;
-height:111px;
-position:absolute;
-top:-4px;
-left:-4px;
-background:url(../images/ribbon.png) no-repeat;
-z-index:7;
-}
-
 #header{
 	height:100px;
 	margin:auto;
@@ -43,53 +33,59 @@ z-index:7;
 }
 
 /*menubar*/
-#menubar ul{
-	position:relative;
-	list-style-type: none;
-	height: 80px;
-	width: 875px;
-	margin: auto;
-	
-}
-#menubar li{
-	float: left;
-}
-#menubar ul a {
-background-image: url('../images/navi_bg_divider.png');
-background-repeat: no-repeat;
-background-position: right;
-/*padding-right: 32px;
-padding-left: 32px;*/
-display: block;
-line-height: 80px;
-text-decoration: none;
-font-size: 20 px;
-color: #fff;
-}
-#menubar ul a:hover {
-color: #2345ff;
 
-
-}
 #menuHolder{
 	height:30px;
 	margin:0px;
 	padding:0px;
 	border-top: 1px solid #265a85;
+	
 	/*border-bottom: 1px solid #101665;*/
 	background-color:#214f75;/*#285b86/*transparent;
 	
 	/*background: -webkit-linear-gradient(top, #7d0101 0%, #651110 100%);*/
-	
+	/*background:url("../images/menubg.png");*/
 }
 #menu{
 	height:30px;
 	width:1000px;
 	margin:auto;
 	background-color:transparent;
-	text-align:right;
+	text-align:left;
 	
 	
+}
+#menubar ul{
+	position:relative;
+	list-style-type: none;
+	height: 28px;
+	width:800px;
+	left: -160px;
+	margin: auto;;
+	
+	
+}
+#menubar li{
+	float: left;
+}
+#menubar ul a {
+/*background-image: url('../images/navi_bg_divider.png');
+background-repeat: no-repeat;
+background-position: right;*/
+padding-right: 20px;
+padding-left: 20px;
+display: block;
+line-height: 28px;
+text-decoration: none;
+font-size: 20px;
+color: #fff;
+}
+#menubar ul a:hover {
+
+/*color: #2345ff;*/
+color:#81c4e1;
+
+
 }
 
 #textbox{
@@ -125,30 +121,44 @@ color: #2345ff;
 #content1{
 	margin: 0px auto 0px auto;
 	width:1000px;
-	height:450px;
+	height:400px;
 }
 
 #links{
 	position:relative;
 	display:inline-block;
-	border:1px solid black;
+	background:url(file:///C|/Users/Myself/Desktop/lf/images/top.gif) no-repeat top left;
 	vertical-align:top;
+	text-align:right;
 	float: right;
-	width:290px;
+	width:160px;
 	height:400px;
+	margin-top:5px;
+}
+.gateways{
+	border-top:4px solid #265a85;
+
+}
+.gateways ul {
+	list-style:none;
 }
 #content2{
 	margin: 0px auto 0px auto;
 	width:1000px;
 	height:300px;
 }
-#events{
-	width:240px;
+
+#eventcontainer{
+	width:220px;
 	float:left;
 	position:relative;
 	height:290px;
-	border:1px solid black;
+	background:url(file:///C|/Users/Myself/Desktop/lf/images/topdot.gif) no-repeat top right;
+	/*border:1px solid black;*/
 	margin-top:5px;
+}
+#events{
+	border-top:4px solid #265a85;
 }
 #contentmid{
 	width: 500px;
@@ -166,6 +176,16 @@ color: #2345ff;
 	height:290px;
 	border:1px solid black;
 	margin-top:3px;
+}
+#enum{
+	text-decoration: none;
+	font-size: 20px;
+	color: gray;	
+}
+#etext{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
 }
 #news{
 	width: 495px;
