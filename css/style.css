@@ -237,3 +237,26 @@ border-bottom:1px solid #23313e;
 #menubackground {
 
 }
+
+/*_-_-_-_-_-_-_-_-_About Page_-_-_-_-_-_-_-_-_-_-_-*/
+#acontent{
+	width:1000px;
+	margin:auto;
+	height:950px;
+}
+#acontent p {
+	text-align:justify;
+}
+.smenu{
+	width:200px;
+	display:inline-block;
+	position:relative;
+	float:left;
+	border-right:1px dotted #bbbbbb;
+}
+.scont{
+	width:790px;
+	display:inline-block;
+	position:relative;
+	float:right;
+}
