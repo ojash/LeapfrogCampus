@@ -213,14 +213,17 @@ border-bottom:1px solid #23313e;
 	border:2px solid white;
 }
 #footer{
-	border-top:1px solid #46647c;
+	border-top:6px solid #46647c;
 	height:150px;
-	background-color:#314556;
+	background-color:#163650;
 }
 #copyright{
 	height:25px;
-	background-color:#71a5d2;
+	background-color:#3e5a71;
 	text-align:center;
+	border-top: 1px solid #1a4161;
+	font-weight:bold;
+	color:#fff;
 }
 #slides{
 	width: 600px;
