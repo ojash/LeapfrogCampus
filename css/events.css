@@ -1,0 +1,18 @@
+#events { 
+	float: left; 
+	width: 200px; 
+	margin-right: 10px; 
+	margin-top: 0px;
+}
+#events h2 { width: 200px; }
+#events h2 a { text-decoration: none; border-bottom: none; }
+#events div h3 { width: 22px; padding: 0px 10px 0px 10px; text-align: center; }
+#events div p { margin-bottom: 0px; line-height: 16px; }
+#events div { margin-bottom: 0px; }
+#events div div.event_list { margin-left: 42px; margin-top: -43px; border-left: 1px solid #eae9e6; padding-left: 10px; }
+.event_time { color: #820000; }
+.event_month { color: #820000; font-size: 11px; font-weight: 400; display: block }
+.event_day { font-size: 21px; font-weight: 400; color: #565347;display: block; }
+.event_list { padding-bottom: 5px; }
+p.more { clear: both;}
+

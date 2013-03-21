@@ -127,7 +127,7 @@ color:#81c4e1;
 #links{
 	position:relative;
 	display:inline-block;
-	background:url(file:///C|/Users/Myself/Desktop/lf/images/top.gif) no-repeat top left;
+	background:url(../images/top.gif) no-repeat top left;
 	vertical-align:top;
 	text-align:right;
 	float: right;
@@ -142,6 +142,11 @@ color:#81c4e1;
 .gateways ul {
 	list-style:none;
 }
+#content2container{
+margin:0px;
+padding:0px;
+border-bottom:1px solid #23313e;
+}
 #content2{
 	margin: 0px auto 0px auto;
 	width:1000px;
@@ -149,13 +154,13 @@ color:#81c4e1;
 }
 
 #eventcontainer{
-	width:220px;
+	width:200px;
 	float:left;
 	position:relative;
 	height:290px;
-	background:url(file:///C|/Users/Myself/Desktop/lf/images/topdot.gif) no-repeat top right;
+	background:url(../images/topdot.gif) no-repeat top right;
 	/*border:1px solid black;*/
-	margin-top:5px;
+	margin-top:15px;
 }
 #events{
 	border-top:4px solid #265a85;
@@ -163,48 +168,59 @@ color:#81c4e1;
 #contentmid{
 	width: 500px;
 	height:290px;
-	margin-top:4px;
+	margin-top:0px;
 	margin-left:5px;
 	position:relative;
 	float:left;
 	
 }
-#life{
+#lifecontainer{
+	background:url(../images/topdot.gif) no-repeat top right;
 	width:240px;
 	float:right;
 	position:relative;
 	height:290px;
-	border:1px solid black;
-	margin-top:3px;
+	/*border:1px solid black;*/
+	margin-top:10px;
 }
-#enum{
-	text-decoration: none;
-	font-size: 20px;
-	color: gray;	
+#life{
+	border-top:4px solid #265a85;
 }
-#etext{
-	text-decoration: none;
-	font-size: 15px;
-	color: black;
+#newscontainer{
+	background:url(../images/topdot.gif) no-repeat top right;
+	margin: 15px 0 0 25px;
+	width: 495px;
 }
 #news{
 	width: 495px;
-	height:190px;
-	border:1px solid black;
+	height:100px;
+	border-top:4px solid #265a85;
+	/*border:1px solid black;*/
+}
+#researchcontainer{
+	background:url(../images/topdot.gif) no-repeat top right;
+	margin: 10px 0 0 25px;
+	width: 495px;
 }
 #research{
 	width: 495px;
-	height:90px;
-	margin-top:5px;
-	border:1px solid black;
+	height:60px;
+	border-top:4px solid #265a85;
+}
+#research img {
+	margin :8px 8px 0px 8px;
+	-webkit-box-shadow: 0px 5px 5px #999999;
+	border:2px solid white;
 }
 #footer{
+	border-top:1px solid #46647c;
 	height:150px;
-	background-color:#272727;
+	background-color:#314556;
 }
-#copy{
+#copyright{
 	height:25px;
-	background-color:#C0C0C0
+	background-color:#71a5d2;
+	text-align:center;
 }
 #slides{
 	width: 600px;
