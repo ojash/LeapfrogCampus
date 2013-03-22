@@ -1,15 +1,30 @@
-#events { 
-	float: left; 
-	width: 200px; 
-	margin-right: 10px; 
-	margin-top: 0px;
+#eventcontainer{
+	width:200px;
+	float:left;
+	position:relative;
+	height:290px;
+	background: -webkit-linear-gradient(top, #dbe3ea 0%, #fff 100%);
+	
+	/*border:1px solid black;*/
+	margin:10px 10px 10px 10px;
+	padding: 0 5px 0 5px;
 }
-#events h2 { width: 200px; }
-#events h2 a { text-decoration: none; border-bottom: none; }
+
+
+
+#events a{
+	text-decoration: none;
+}
+#events { 
+	text-align: left; 
+	width: 200px; 
+	border-top:4px solid #265a85;
+}
+#eventcontainer h2 { padding-top: -5px; margin-top:5px; margin-bottom:5px;}
 #events div h3 { width: 22px; padding: 2px 10px 0px 10px; text-align: center; border-bottom: 3px solid #004c82;border-top: 1px solid #004c82;}
 #events div p { margin-bottom: 0px; line-height: 16px; }
 #events div { margin-bottom: 0px; }
-#events div div.event_list { margin-left: 42px; margin-top: -43px; border-left: 1px solid #eae9e6; padding-left: 10px;}
+#events div div.event_list { margin-left: 42px; margin-top: -43px; padding-left: 10px;}
 .event_time { color: #3a5263; }
 .event_month { color: #3a5263; font-size: 11px; font-weight: bold; display: block }
 .event_day { font-size: 21px; font-weight: bold; color: #163b54;display: block; }
