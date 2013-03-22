@@ -278,15 +278,87 @@ border-bottom:1px solid #23313e;
 	text-align:justify;
 }
 .smenu{
-	width:200px;
+	width:220px;
 	display:inline-block;
 	position:relative;
 	float:left;
-	border-right:1px dotted #bbbbbb;
+	background: -webkit-linear-gradient(top, #efedeb 0%, #f2eee9 100%);
 }
+.smenu li{
+	display:block;
+	list-style: none;
+	background: #e8e8e8;
+	border-bottom: 1px solid #fff;
+	height: 30px;
+	background: url("../images/topdot.gif") no-repeat left top;
+	text-indent: 15px;
+}
+
+.smenu li a{
+	color:#6b6b6b;
+	text-decoration:none;
+	font-size: 1em;
+}
+.smenu li a:hover{
+	color:#6b6b6b;
+	text-decoration:none;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
 .scont{
-	width:790px;
+	width:760px;
 	display:inline-block;
 	position:relative;
 	float:right;
+	border-left: 1px solid #bbbbbb;
+	border-bottom:1px solid #bbbbbb;
+	padding: 10px 5px 10px 10px;
+	margin-top: 5px;
+}
+
+.scont p ,.scont li{
+	font-family: Century Gothic, sans-serif;
+	font-size: 0.9em;
+	color:#214f75;
+}
+
+.scont p{
+	margin-bottom: 40px;
+}
+
+.scont h2{
+	font-family: Century Gothic, sans-serif;
+	font-size: 1.2em;
+	color:#6b6b6b;
+}
+
+.scont h3{
+	font-family: Century Gothic, sans-serif;
+	font-size: 0.98em;
+	color:#6b6b6b;
+}
+
+.scont a{
+	text-decoration: none;
+	color: #6b6b6b;
+}
+
+.scont table{
+	border: 0px solid #6b6b6b;
+
+}
+
+.scont tr{
+	background-color: #e8e8e8;
+}
+
+.scont tr:first-child{
+	background-color: #dcddde;
+	font-weight: bold;
+}
+
+.scont td{
+	text-align: center;
 }
