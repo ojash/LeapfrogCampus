@@ -25,6 +25,7 @@ font-family: Copperplate Gothic Light, sans-serif;
 
 .subnav a:hover{
 background-color: #000;
+
 }
 #homwnav{
 /*border: 2px solid white;
@@ -40,10 +41,11 @@ background-color: #000;
 	
 	height:0px; padding:0 0 0 0;
 	z-index:8;
+	
 }
 
-#nav .subnav li { border-bottom:1px groove white;padding:0;height:32px; line-height:32px;z-index:1; width:200px; }
-.subnav li a {display:block; text-indent:-75px; background-color:#214f75; text-decoration:none;width:180px;color:#FFF; z-index:1; font-size:0.7em; }
+#nav .subnav li { border-bottom:1px groove white;padding:0;height:32px; line-height:32px;z-index:1; width:200px; opacity:0.9;}
+.subnav li a {display:block; text-indent:-75px; background-color:#214f75; text-decoration:none;width:180px;color:#FFF; z-index:1; font-size:0.7em;}
 #homwnav .subnav li:first-child {line-height:35px; height:35px;}
 #nav .subnav li:last-child { border-bottom:none;} 
 
