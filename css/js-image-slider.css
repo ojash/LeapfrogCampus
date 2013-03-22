@@ -2,10 +2,10 @@
 
 #sliderFrame {
 	position:relative;
-	display:inline-block;
+	
 	width:800px;
 	height:400px;
-	margin: 0px 0 0 0;
+	margin: 0 auto;
 	
 	
 
@@ -16,7 +16,7 @@
     width:800px;height:400px;/* Make it the same size as your images */
 	background:#fff url("../images/loading.gif") no-repeat 50% 50%;
 	position:relative;
-	margin:0 0 0 0;/*make the image slider center-aligned */
+	margin:0 auto;/*make the image slider center-aligned */
     /*-webkit-box-shadow: 0px 5px 15px #999999;*/
 	
 	

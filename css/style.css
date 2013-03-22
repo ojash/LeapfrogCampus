@@ -135,20 +135,33 @@ color:#81c4e1;
 	height:400px;
 }
 
+
+
 #links{
 	position:relative;
 	display:inline-block;
 	/*background:url(../images/top.gif) no-repeat top left;*/
-	background: -webkit-linear-gradient(top, #efedeb 0%, #f2eee9 100%);
+	background-color: #fff;
 	vertical-align:top;
 	text-align:right;
 	float: right;
 	width:180px;
 	height:400px;
 	margin-top:5px;
+	visibility: hidden;
 	
 
 }
+
+#link-container{
+	
+	background: -webkit-linear-gradient(top, #efedeb 0%, #f2eee9 100%);
+	width:160px;
+	height:375px;
+	margin:auto;
+
+}
+
 .gateways{
 	border-top:4px solid #265a85;
 	margin-top: -10px;
@@ -169,14 +182,16 @@ color:#81c4e1;
 	list-style:none;
 }
 #content2container{
-margin:0px;
+margin-top:10px;
 padding:0px;
 border-bottom:1px solid #23313e;
+
 }
 #content2{
 	margin: 0px auto 0px auto;
 	width:1000px;
 	height:300px;
+	background-color: #fff;
 }
 
 #eventcontainer{
@@ -187,7 +202,8 @@ border-bottom:1px solid #23313e;
 	background: -webkit-linear-gradient(top, #efedeb 0%, #f2eee9 100%);
 	/*background:url(../images/topdot.gif) no-repeat top right;*/
 	/*border:1px solid black;*/
-	margin-top:15px;
+	margin:10px 10px 10px 10px;
+	padding: 0 5px 0 5px;
 }
 #events{
 	border-top:4px solid #265a85;
@@ -196,7 +212,7 @@ border-bottom:1px solid #23313e;
 	width: 500px;
 	height:290px;
 	margin-top:0px;
-	margin-left:5px;
+	margin-left:0px;
 	position:relative;
 	float:left;
 	
@@ -210,6 +226,7 @@ border-bottom:1px solid #23313e;
 	height:290px;
 	/*border:1px solid black;*/
 	margin-top:10px;
+	margin-right:10px;
 }
 #life{
 	border-top:4px solid #265a85;
@@ -217,7 +234,7 @@ border-bottom:1px solid #23313e;
 #newscontainer{
 	/*background:url(../images/topdot.gif) no-repeat top right;*/
 	background: -webkit-linear-gradient(top, #efedeb 0%, #f2eee9 100%);
-	margin: 15px 0 0 25px;
+	margin: 10px 0 0 10px;
 	width: 495px;
 }
 #news{
@@ -229,7 +246,7 @@ border-bottom:1px solid #23313e;
 #researchcontainer{
 	/*background:url(../images/topdot.gif) no-repeat top right;*/
 	background: -webkit-linear-gradient(top, #efedeb 0%, #f2eee9 100%);
-	margin: 10px 0 0 25px;
+	margin: 10px 0 0 10px;
 	width: 495px;
 }
 #research{
