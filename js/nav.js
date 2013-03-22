@@ -6,7 +6,7 @@ $('.subnav li a').mouseover(function() {
 									 $(this).stop().animate({textIndent: "30px"}, 500);
 									 });
 $('.subnav li a').mouseout(function() {
-									 $(this).stop().animate({textIndent: "20px"}, 500);
+									 $(this).delay(5050).stop().animate({textIndent: "20px"}, 500);
 									 });
 
 	
