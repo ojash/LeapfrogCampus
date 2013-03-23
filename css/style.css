@@ -1,7 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+@font-face
+{
+font-family: Century Gothic;
+src: url('../fonts/CenturyGothic.ttf')
+     
+}
+@font-face
+{
+font-family: Copperplate Gothic Light;
+src: url('../fonts/CopperplateGothicLight.ttf')
+     
+}
 body{
 	margin: 0px auto 0px auto;
 	/*background-color:#D9E0E1;*/
